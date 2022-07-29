@@ -12,14 +12,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Get some dart package
+      - name: Install dart
         uses: dart-lang/setup-dart@9a04e6d73cca37bd455e0608d7e5092f881fd603
 
-      - name: Install dependecy
-        run: dart pub get
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '2.10.3'
+          channel: 'stable'
 
-#      - name: Install Flutter
-#      - uses: dart-lang/setup-dart@9a04e6d73cca37bd455e0608d7e5092f881fd603
+      - name: Install dependecy
+        run: flutter pub get
 
       - name: Analyze project source
         run: dart analyze
