@@ -24,5 +24,8 @@ ga analyzer: https://github.com/marketplace/actions/dart-flutter-package-analyze
 ga analyze dart: https://github.com/marketplace/actions/analyze-dart
 https://chromium.googlesource.com/external/github.com/flutter/flutter/+/refs/heads/dev/analysis_options.yaml
 
+// run workflow from Github UI
+https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow
+
 
 [GITHUB ACTIONS ENDS] ----------------------------------------------------------
