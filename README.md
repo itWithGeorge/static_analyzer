@@ -22,6 +22,7 @@ https://pub.dev/packages/analyzer
 the best Github actions: https://github.com/marketplace/actions/flutter-action
 ga analyzer: https://github.com/marketplace/actions/dart-flutter-package-analyzer
 ga analyze dart: https://github.com/marketplace/actions/analyze-dart
+https://chromium.googlesource.com/external/github.com/flutter/flutter/+/refs/heads/dev/analysis_options.yaml
 
 
 [GITHUB ACTIONS ENDS] ----------------------------------------------------------
