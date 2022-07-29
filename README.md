@@ -19,6 +19,9 @@ https://pub.dev/packages/analyzer
 //https://betterprogramming.pub/creating-a-complete-github-workflow-for-flutter-529f6bd7bb10
 //https://betterprogramming.pub/ci-cd-for-flutter-apps-using-github-actions-b833f8f7aac
 
-Github actions: https://github.com/marketplace/actions/flutter-action
+the best Github actions: https://github.com/marketplace/actions/flutter-action
+ga analyzer: https://github.com/marketplace/actions/dart-flutter-package-analyzer
+ga analyze dart: https://github.com/marketplace/actions/analyze-dart
+
 
 [GITHUB ACTIONS ENDS] ----------------------------------------------------------
