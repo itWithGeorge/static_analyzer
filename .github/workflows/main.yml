@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Analyze dart
+jobs:
+  build:
+    name: 1st dart analyzer
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependecy
+      - run: dart pub get
+
+#      - name: Install Flutter
+#      - uses: dart-lang/setup-dart@9a04e6d73cca37bd455e0608d7e5092f881fd603
+
+      - name: Analyze project source
+        run: dart analyze

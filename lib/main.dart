@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   // see docs for lint error: https://dart-lang.github.io/linter/lints/use_string_buffers.html
   void _concatenateString() {
     for(var i = 0; i < 10; i++) {
-      _buffer += i;
+      _buffer += i.toString();
     }
     debugPrint('_concatenateString result: $_buffer');
   }
