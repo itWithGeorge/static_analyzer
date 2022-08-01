@@ -55,5 +55,7 @@ https://github.com/marketplace/actions/report-lcov
 TODO take a spin with itWithGeorge: https://github.com/marketplace/actions/report-lcov
 the best: https://betterprogramming.pub/creating-a-complete-github-workflow-for-flutter-529f6bd7bb10
 
+// interesting flutter gist
+https://gist.github.com/Esgrima/c0d4bff4b0d3909daf8994410cd659ce
 
 [GITHUB ACTIONS ENDS] ----------------------------------------------------------
