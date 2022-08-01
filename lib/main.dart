@@ -69,10 +69,11 @@ class _MyHomePageState extends State<MyHomePage> {
         title: const Text('Static analyzer'),
         actions: [
           TextButton(
-              key: const Key('TextButton'),
-              onPressed: _useBufferProperly,
-              child: const Text('Button'),
-          style: TextButton.styleFrom(primary: Colors.white),)
+            key: const Key('TextButton'),
+            onPressed: _useBufferProperly,
+            child: const Text('Button'),
+            style: TextButton.styleFrom(primary: Colors.white),
+          )
         ],
       ),
       body: _showBuffer

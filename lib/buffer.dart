@@ -1,15 +1,14 @@
-
 import 'package:flutter/material.dart';
 
 class Buffer {
   String buffer = 'buffer';
   void concatenateString() {
-    for(var i = 0; i < 2; i++) {
+    for (var i = 0; i < 2; i++) {
       buffer += i.toString();
     }
 
     // some additional operation to check coverage
-    if(buffer == 'foo') {
+    if (buffer == 'foo') {
       debugPrint('foo');
     }
   }

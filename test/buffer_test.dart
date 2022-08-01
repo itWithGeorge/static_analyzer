@@ -4,12 +4,10 @@ import 'package:static_analyzer/buffer.dart';
 // flutter test test/buffer_test.dart
 void main() {
   group('Unit_test: buffer', () {
-
     test('buffer init', () {
       final _bufferInstance = Buffer();
       expect(_bufferInstance.buffer, 'buffer');
     });
-
 
     test('concatenateString', () {
       final _bufferInstance = Buffer();
@@ -22,6 +20,5 @@ void main() {
       _bufferInstance.useBufferProperly();
       expect(_bufferInstance.buffer, 'buffer01');
     });
-
   });
 }

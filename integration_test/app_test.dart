@@ -6,14 +6,12 @@ import 'package:static_analyzer/main.dart' as app;
 
 // flutter test integration_test/app_test.dart
 void main() {
-
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-  if(binding is LiveTestWidgetsFlutterBinding) {
+  if (binding is LiveTestWidgetsFlutterBinding) {
     binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
   }
 
   group('Integration test', () {
-
     testWidgets('tap on button and verify text', (WidgetTester tester) async {
       tester.printToConsole('tester started');
       //app.main();
@@ -36,10 +34,8 @@ void main() {
 
       await tester.pumpAndSettle();
 
-      expect(find.text('buffer01'), findsOneWidget, reason: 'Unable to find textField');
-
+      expect(find.text('buffer01'), findsOneWidget,
+          reason: 'Unable to find textField');
     }, timeout: const Timeout.factor(1)); // 1*30 sec
-
   });
-
 }
