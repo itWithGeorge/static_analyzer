@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   // see docs for lint error: https://dart-lang.github.io/linter/lints/use_string_buffers.html
   void _concatenateString() {
-    for(var i = 0; i < 10; i++) {
+    for (var i = 0; i < 10; i++) {
       _buffer += i.toString();
     }
     debugPrint('_concatenateString result: $_buffer');
@@ -52,19 +52,18 @@ class _MyHomePageState extends State<MyHomePage> {
       _stringBuffer.write(i);
     }
     debugPrint('_useBufferProperly: ${_stringBuffer.toString()}');
-
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Static analyzer')),
+      appBar: AppBar(
+        title: const Text('Static analyzer'),
+        actions: [TextButton(onPressed: _useBufferProperly, child: const Text('Button'))],
+      ),
       body: const Center(
         child: CircularProgressIndicator(),
       ),
     );
   }
 }
-
-
-

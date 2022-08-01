@@ -15,6 +15,16 @@ https://pub.dev/packages/analyzer
 
 [LINTER ENDS] ----------------------------------------------------------
 
+[FLUTTER TEST START] ----------------------------------------------------------
+// running unit tests
+flutter test test/buffer_test.dart
+
+// running unit test with coverage
+// https://github.com/flutter/flutter/wiki/Test-coverage-for-package:flutter
+flutter test --coverage test/buffer_test.dart
+
+[FLUTTER TEST ENDS] -----------------------------------------------------------
+
 [GITHUB ACTIONS STARTS] ----------------------------------------------------------
 //https://betterprogramming.pub/creating-a-complete-github-workflow-for-flutter-529f6bd7bb10
 //https://betterprogramming.pub/ci-cd-for-flutter-apps-using-github-actions-b833f8f7aac
@@ -42,6 +52,7 @@ good flutter example: https://dev-yakuza.posstree.com/en/flutter/test-coverage/
 https://github.com/marketplace/actions/report-lcov
 
 TODO take a spin with itWithGeorge: https://github.com/marketplace/actions/report-lcov
+the best: https://betterprogramming.pub/creating-a-complete-github-workflow-for-flutter-529f6bd7bb10
 
 
 [GITHUB ACTIONS ENDS] ----------------------------------------------------------
