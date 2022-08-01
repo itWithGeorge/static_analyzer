@@ -72,3 +72,9 @@ https://gist.github.com/Esgrima/c0d4bff4b0d3909daf8994410cd659ce
 
 Dart Code analyzer - community driven
 https://dartcodemetrics.dev/
+
+[GIT HOOKS START] ----------------------------------------------------------
+https://medium.com/kinandcartacreated/githooks-explained-using-flutter-babcdeb4048d
+
+1 - [git config core.hooksPath .githooks/]
+[GIT HOOKS END] ------------------------------------------------------------
