@@ -1,5 +1,6 @@
+<a href="https://github.com/ehealthstrom/static_analyzer/actions"><img src="https://github.com/ehealthstrom/static_analyzer/workflows/3rd dart analyzer + unit with coverage + coverage/badge.svg" alt="Build Status"></a>
 
-
+// see badge documentation here: https://blog.gskinner.com/archives/2022/01/flutter-easily-add-ci-testing-with-github-actions.html
 
 [LINTER STARTS] ----------------------------------------------------------
 

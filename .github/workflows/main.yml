@@ -11,7 +11,7 @@ on:
 name: Analyze dart
 jobs:
   build:
-    name: 2nd dart analyzer + unit with coverage
+    name: 3rd dart analyzer + unit with coverage + coverage
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -34,5 +34,5 @@ jobs:
 #        run: dart analyze --fatal-infos
         run: dart analyze
 
-      - name: Run unit tests
+      - name: Run unit & widget tests
         run: flutter test --coverage
