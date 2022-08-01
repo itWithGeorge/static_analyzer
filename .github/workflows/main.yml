@@ -36,3 +36,5 @@ jobs:
 
       - name: Run unit & widget tests
         run: flutter test --coverage
+
+

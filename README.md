@@ -24,6 +24,16 @@ flutter test test/buffer_test.dart
 // https://github.com/flutter/flutter/wiki/Test-coverage-for-package:flutter
 flutter test --coverage test/buffer_test.dart
 
+// flutter widget test
+
+// flutter integration test
+https://docs.flutter.dev/testing/integration-tests
+https://docs.flutter.dev/cookbook/testing/integration/introduction
+great tutorials
+https://blog.gskinner.com/archives/2022/01/flutter-easily-add-ci-testing-with-github-actions.html
+ + https://github.com/gskinnerTeam/flutter-integration-test-examples/blob/master/integration_test/smoke_test.dart
+https://www.raywenderlich.com/29321816-integration-testing-in-flutter-getting-started
+
 [FLUTTER TEST ENDS] -----------------------------------------------------------
 
 [GITHUB ACTIONS STARTS] ----------------------------------------------------------
@@ -59,3 +69,6 @@ the best: https://betterprogramming.pub/creating-a-complete-github-workflow-for-
 https://gist.github.com/Esgrima/c0d4bff4b0d3909daf8994410cd659ce
 
 [GITHUB ACTIONS ENDS] ----------------------------------------------------------
+
+Dart Code analyzer - community driven
+https://dartcodemetrics.dev/
