@@ -1,0 +1,19 @@
+on:
+  workflow_dispatch:
+    branches:
+      - feature_integration_test
+
+  push:
+    branches:
+      - feature_integration_test
+jobs:
+  drive:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: subosito/flutter-action@v1
+        with:
+          channel: 'beta'
+      - run: |
+          flutter config --enable-windows-desktop
+          flutter test -d windows integration_test/app_test.dart

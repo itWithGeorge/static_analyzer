@@ -11,7 +11,7 @@ on:
 name: Analyze dart
 jobs:
   build:
-    name: 3rd dart analyzer + unit with coverage + coverage
+    name: 4th dart analyzer + unit with coverage + widget
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
