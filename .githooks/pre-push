@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-flutter analyze
-if [ $? -ne 0 ]; then
-  printf "\e[31;1m%s\e[0m\n" 'Flutter analyzer error'
-  exit 1
-fi
+#flutter analyze
+#if [ $? -ne 0 ]; then
+#  printf "\e[31;1m%s\e[0m\n" 'Flutter analyzer error'
+#  exit 1
+#fi
 
 flutter test
 if [ $? -ne 0 ]; then
