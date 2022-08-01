@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - feature_integration_test
+#windows testing is the best/easiest option
+name: Integration test
 jobs:
   drive:
     runs-on: windows-latest
