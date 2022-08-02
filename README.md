@@ -74,7 +74,15 @@ Dart Code analyzer - community driven
 https://dartcodemetrics.dev/
 
 [GIT HOOKS START] ----------------------------------------------------------
+
+// examples
 https://medium.com/kinandcartacreated/githooks-explained-using-flutter-babcdeb4048d
+https://blog.devgenius.io/easy-git-hooks-for-flutter-f2927cbbcfd4
+// docs
+https://git-scm.com/docs/githooks
 
 1 - [git config core.hooksPath .githooks/]
 [GIT HOOKS END] ------------------------------------------------------------
+
+original repo: git@github.com:ehealthstrom/static_analyzer.git
+
