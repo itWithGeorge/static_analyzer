@@ -24,6 +24,9 @@ flutter test test/buffer_test.dart
 // https://github.com/flutter/flutter/wiki/Test-coverage-for-package:flutter
 flutter test --coverage test/buffer_test.dart
 
+// coverage packages
+https://pub.dev/packages/coverage
+
 // flutter widget test
 
 // flutter integration test
